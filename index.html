@@ -88,7 +88,15 @@
     }
 
     /* 👉 Task 5 - [HINT] research align-self */
-    #flexContainer5 {}
+    #flexContainer5 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      /* space on top & bottom off */
+    }
+    #flexContainer5 > :nth-child(2) {
+      align-self: center;
+    }
 
     /* 👉 Task 6 - [HINT] flex items can be flex containers */
     #flexContainer6 {}

@@ -99,7 +99,20 @@
     }
 
     /* 👉 Task 6 - [HINT] flex items can be flex containers */
-    #flexContainer6 {}
+    #flexContainer6 {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: left;
+    }
+    #flexContainer6 > :first-child {
+      flex-direction: column;
+      align-items: flex-end;
+      align-self: flex-end;
+    }
+    #flexContainer6 > :nth-child(2) {
+      align-items: flex-end;
+      align-self: flex-end;
+    }
 
     /* 👉 Task 7 - [HINT] research flex-grow */
     #flexContainer7 {}

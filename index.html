@@ -78,7 +78,14 @@
     }
 
     /* 👉 Task 4 - [HINT] the flex items need a new order */
-    #flexContainer4 {}
+    #flexContainer4 {
+      display: flex;
+      justify-content: space-around;
+      align-items: end;
+    }
+    #flexContainer4 > :last-child {
+      order: -1;
+    }
 
     /* 👉 Task 5 - [HINT] research align-self */
     #flexContainer5 {}
